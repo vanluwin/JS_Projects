@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Linear Regression with Ordinary Least Squares</title>
+
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.dom.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.sound.js"></script>
+
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <script language="javascript" type="text/javascript" src="bach.js"></script>
+
+  <!--Material Design-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  </script>
+</head>
+
+<body>
+
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Regressão linear com o método dos mínimos quadrados</span>
+    </header>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <div class="mdl-grid" id="plots">
+          <div class="mdl-cell mdl-cell--6-col" id="main">
+            <h4>Gráfico de disperção</h4>
+            <div id="buttons"></div>
+          </div>
+        <div class="mdl-cell mdl-cell--6-col" id="stats">
+          <h4>Status</h4>
+          <div id="reg_line"></div>
+        </div>
+      </div>
+    </main>
+    </div>
+
+</body>
+
+</html>
